@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_stroke_color">#33888888</color>
+    <color name="dialog_color_normal">#fd6e86</color>
+    <color name="dialog_color_pressed">#99fd6e86</color>
+    <color name="dialog_content_color">#666666</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dialog_margin">30dp</dimen>
+    <dimen name="dialog_radius">10dp</dimen>
+    <dimen name="dialog_stroke_width">1dp</dimen>
+    <dimen name="dialog_title_size">18dp</dimen>
+    <dimen name="dialog_content_size">16dp</dimen>
+    <dimen name="dialog_btn_size">16dp</dimen>
+    <dimen name="dialog_content_padding">16dp</dimen>
+    <dimen name="dialog_btn_height">40dp</dimen>
+
+
+</resources>
