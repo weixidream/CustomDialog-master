@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="DialogLibrary-1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.liuhc.library.dialog/DialogLibrary/1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.liuhc.library.dialog/DialogLibrary/1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../studio/gradle-2.12/caches/modules-2/files-2.1/com.liuhc.library.dialog/DialogLibrary/1.0.2/725e99a0e87f06a2c857e3cc1665bb9f9a9948bb/DialogLibrary-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
