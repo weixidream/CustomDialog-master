@@ -5,15 +5,16 @@
 ###包括dialog内view的设置
 
 ###用法如下
-DialogBuilder.getInstance(MainActivity.this)
 > 
-                        .withTitle("Dialog /Title")
+DialogBuilder.getInstance(MainActivity.this)//获取dialog单例
 > 
-                        .withContent("Dialog /Content")
+                        .withTitle("Dialog /Title")//设置标题
 > 
-                        .withConfirmText("Button OK")
+                        .withContent("Dialog /Content")//设置内容
 > 
-                        .setConfirmClickListener(new DialogBuilder.OnClickListener() {
+                        .withConfirmText("Button OK")//设置确定按钮文本
+> 
+                        .setConfirmClickListener(new DialogBuilder.OnClickListener() {//设置点击事件
 > 
                             @Override
 > 
@@ -29,8 +30,10 @@ DialogBuilder.getInstance(MainActivity.this)
 
 Gradle 配置如下
 ------- 
+> 
 dependencies {
 > 
     compile 'com.liuhc.library.dialog:DialogLibrary:1.0.2'
 > 
 }
+> 
