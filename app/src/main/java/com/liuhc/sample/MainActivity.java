@@ -7,6 +7,8 @@ import android.widget.Toast;
 
 import com.liuhc.library.dialog.DialogBuilder;
 
+import butterknife.ButterKnife;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @Override
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.btn_show:
                 DialogBuilder.getInstance(MainActivity.this)
+                        .setShowTitle(false)
                         .withTitle("Dialog /Title")
                         .withContent("Dialog /Content")
                         .withConfirmText("Button OK")

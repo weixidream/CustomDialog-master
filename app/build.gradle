@@ -24,6 +24,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
 //    compile project(':DialogLibrary')
-    compile 'com.liuhc.library.dialog:DialogLibrary:1.0.2'
+    compile 'com.liuhc.library.dialog:DialogLibrary:1.0.3'
+    compile 'com.jakewharton:butterknife:8.0.1'
 
 }
