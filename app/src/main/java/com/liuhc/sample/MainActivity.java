@@ -21,19 +21,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_show:
-                DialogBuilder.getInstance(MainActivity.this)
-                        .setShowTitle(false)
-                        .withTitle("Dialog /Title")
-                        .withContent("Dialog /Content")
-                        .withConfirmText("Button OK")
-                        .setConfirmClickListener(new DialogBuilder.OnClickListener() {
-                            @Override
-                            public void onClick(DialogBuilder dialogBuilder) {
-                                Toast.makeText(MainActivity.this, "Dialog Ok Button", Toast.LENGTH_SHORT).show();
-                            }
-                        })
-                        .show();
+                showDiaog();
                 break;
         }
+    }
+
+    public void showDiaog(){
+        DialogBuilder.getInstance(MainActivity.this)
+                .setShowTitle(false)
+                .withTitle("Dialog /Title")
+                .withContent("Dialog /Content")
+                .withConfirmText("Button OK")
+                .setConfirmClickListener(new DialogBuilder.OnClickListener() {
+                    @Override
+                    public void onClick(DialogBuilder dialogBuilder) {
+                        Toast.makeText(MainActivity.this, "Dialog Ok Button", Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .show();
     }
 }
